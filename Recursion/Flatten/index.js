@@ -8,6 +8,4 @@ function flatten(arr, newArr = []) {
     newArr.push(arr[0])
     return flatten(arr.slice(1), newArr)
   }
-
-  return newArr
 }
